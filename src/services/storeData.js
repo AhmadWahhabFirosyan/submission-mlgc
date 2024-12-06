@@ -6,7 +6,7 @@ const pathKey = path.resolve("./wahhab-key.json");
 async function storeData(id, data) {
   try {
     const db = new Firestore({
-      projectId: "submissionmlgc-wahhab",
+      projectId: "submissionmlgc-wahhab-99",
       keyFilename: pathKey,
     });
 
